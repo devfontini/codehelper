@@ -31,11 +31,11 @@ const studyMaterials = {
 
 // Playlists para estudar
 const playlists = {
-    python: "https://www.youtube.com/embed/5W5RuZpI6yc",
-    javascript: "https://www.youtube.com/embed/jQE66WA2s-A",
-    java: "https://www.youtube.com/embed/UwD4PnhCpdA",
-    csharp: "https://www.youtube.com/embed/ZK7cE6yKqJ4",
-    htmlcss: "https://www.youtube.com/embed/hdDHg1p3YVc"
+    python: "https://www.youtube.com/watch?v=8Kjhr_8MmU0",
+    javascript: "https://www.youtube.com/watch?v=t8OZPJfpcTM&t=175s",
+    java: "https://www.youtube.com/watch?v=ww-rNXzSiPQ",
+    csharp: "https://www.youtube.com/watch?v=VnjdikpgR0E",
+    htmlcss: "https://www.youtube.com/watch?v=_SPSiNavfsM"
 };
 
 // Evento de clique no botão "Gerar Conteúdo"
