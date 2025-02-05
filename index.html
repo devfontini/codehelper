@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente de Estudos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💻 Assistente de Estudos de Programação</h1>
+        <p>Escolha uma linguagem para receber materiais e uma playlist para estudar:</p>
+
+        <!-- Seleção da linguagem -->
+        <select id="languageSelect">
+            <option value="" disabled selected>Selecione uma linguagem...</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="csharp">C#</option>
+            <option value="htmlcss">HTML & CSS</option>
+        </select>
+
+        <button id="generateBtn">Gerar Conteúdo</button>
+
+        <!-- Seção de Conteúdo -->
+        <div id="contentSection">
+            <h2>📚 Materiais Recomendados</h2>
+            <ul id="materialsList"></ul>
+
+            <h2>🎵 Playlist para Estudar</h2>
+            <iframe id="playlistFrame" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
